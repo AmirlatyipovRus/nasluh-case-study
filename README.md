@@ -31,6 +31,16 @@ Clients poll for a view of the current room. The server advances timed phases us
 - **Music previews.** Provider integration is separate from room rules. The quiz works with short preview fragments and keeps audio-provider lookup outside scoring.
 - **Role boundaries.** A room code locates a room, while separate credentials identify the host and each participant. State views are filtered by role. Account moderation and session revocation are enforced on the server.
 
+## Room setup and gameplay
+
+The host selects the music source, difficulty, and number of rounds before opening a room.
+
+![Host form for creating a room, with player join controls beside it](assets/create-room.jpg)
+
+The player view shows the timer, the points available for the answer, and the scoreboard. The example below uses synthetic participant and room data.
+
+![Player view in a timed round with two fictional players](assets/player-round.jpg)
+
 ## Verification
 
 The private codebase includes unit tests for game rules and integration scenarios covering concurrent updates, room-creation retries, and account balance changes.
