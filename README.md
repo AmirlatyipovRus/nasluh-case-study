@@ -2,6 +2,8 @@
 
 «На слух» is a browser music quiz for groups. The host creates a room and shares a join code or QR link. Players hear a short music preview, give answers, and follow a shared scoreboard.
 
+**Tech stack** · Next.js, React, TypeScript, Node.js, PostgreSQL
+
 [Open the game](https://на-слух.рф/) · [LatWorks portfolio](https://latworks.ru/)
 
 ![Public landing screen of the music quiz](assets/game-home.jpg)
